@@ -1,3 +1,4 @@
+//more array methods in arrayMethods.js file
 //for-of and for-in loops can also be used to print array: refer harry #19
 //Activity -1
 
