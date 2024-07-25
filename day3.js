@@ -3,7 +3,7 @@
 //Task 1
 let a = 5;
 if (a > 0) {
-    console.log("Positive");  //output: Positive
+    console.log("Positive");    //output: Positive
 }
 else if (a < 0) {
     console.log("Negative");
@@ -15,7 +15,7 @@ else {
 //Task 2
 let age = 37;
 if (age >= 18) {
-    console.log("Eligible to vote"); //output: Eligible to vote 
+    console.log("Eligible to vote");    //output: Eligible to vote 
 }
 else {
     console.log("Not eligible to vote");
@@ -25,7 +25,7 @@ else {
 //Activity -2
 
 //Task 3
-let num1 = 10, num2 = 15, num3 = 20;  //output: 20
+let num1 = 10, num2 = 15, num3 = 20;    //output: 20
 if (num1 > num2) {
     if (num1 > num3) {
         console.log(num1);
@@ -47,7 +47,7 @@ else {
 //Activity -3
 
 //Task 4
-let day = 2;  //output:TUESDAY
+let day = 2;    //output:TUESDAY
 switch (day) {
     case (1):
         console.log("MONDAY");
@@ -73,8 +73,8 @@ switch (day) {
 }
 
 //Task 5
-let score = 7;
-switch (score) {  //output: C
+let score = 7;  //output: C
+switch (score) {
     case (10):
     case (9):
         console.log("A");
@@ -96,14 +96,14 @@ switch (score) {  //output: C
 //Activity -4
 
 //Task 6
-let num = 27;  //output: Odd
+let num = 27;   //output: Odd
 let check = (num % 2 == 0) ? console.log("Even") : console.log("Odd");
 
 
 //Activity -5
 
 //Task 7
-let year = 1900;  //output: Not a leap year
+let year = 1900;    //output: Not a leap year
 if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)){
     console.log("Leap Year");
 }
