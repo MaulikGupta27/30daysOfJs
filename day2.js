@@ -1,38 +1,45 @@
 //Activity -1
 let a = 10, b = 2;
 
-// addition operator
+//Task 1
 console.log("Addition =", a + b);  //output=> 12
-// subtraction operator
+
+//Task 2
 console.log("Subtraction =", a - b); //output=> 8
-// multiplication operator
+
+//Task 3
 console.log("Multiplication =", a * b); //output=> 20
-// division operator
+
+//Task 4
 console.log("Division =", a / b); //output=> 5
-// remainder operator
+
+//Task 5
 console.log("Remainder =", a % b); //output=> 0
 
 
 //Activity -2
 let c = 5;
 
-// addition assignment
+//Task 6
 c += 5;
 console.log("Addition =", c); //output=> 10
-// subtraction assignment
+
+//Task 7
 c - +5;
 console.log("Subtraction =", c); //output=> 10
 
 
 //Activity -3
 
-//Using < and >
+//Task 8
 console.log("10>20 =", 10 > 20); //output=> false
 console.log("10<20 =", 10 < 20); //output=> true
-//Using <= and >=
+
+//Task 9
 console.log("10>=20 =", 10 >= 20); //output=> false
 console.log("10<=20 =", 10 <= 20); //output=> true
-//Using == and ===
+
+//Task 10
 console.log("10==20 =", 10 == 20); //output=> false
 console.log("10===20 =", 10 === 20); //output=> false
 
@@ -40,16 +47,19 @@ console.log("10===20 =", 10 === 20); //output=> false
 //Activity -4
 let x = 4;
 
-//Using && operator
+//Task 11
 console.log("(x>3)&&(x<2) =", (x > 3) && (x < 2)); //output=> false
-//Using !! operator
+
+//Task 12
 console.log("(x>3)||(x<2) =", (x > 3) || (x < 2)); //output=> true
-//Using ! operator
+
+//Task 13
 console.log("!(x==4) =", !(x == 4)); //output=> false
 
 
 //Activity -5
 
+//Task 14
 let num = -12;
-let check = (num > 0) ? 'Positive' : 'Negative'; //output=> Negative
-console.log(check);
+let check = (num > 0) ? 'Positive' : 'Negative';
+console.log(check); //output=> Negative
