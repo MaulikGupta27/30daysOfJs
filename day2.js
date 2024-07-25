@@ -1,4 +1,5 @@
-//Activity -1
+//Activity -1: Arithmetic operators
+//+, -, *, /, %, **, increment, decrement
 let a = 10, b = 2;
 
 //Task 1
@@ -17,7 +18,8 @@ console.log("Division =", a / b); //output=> 5
 console.log("Remainder =", a % b); //output=> 0
 
 
-//Activity -2
+//Activity -2: Assignment operators
+// =, +=, -=, *=, /=, %=, **=
 let c = 5;
 
 //Task 6
@@ -29,7 +31,8 @@ c - +5;
 console.log("Subtraction =", c); //output=> 10
 
 
-//Activity -3
+//Activity -3: Comparison operators
+//>, <, <=, >=, ==, ===, !=, !==
 
 //Task 8
 console.log("10>20 =", 10 > 20); //output=> false
@@ -44,7 +47,12 @@ console.log("10==20 =", 10 == 20); //output=> false
 console.log("10===20 =", 10 === 20); //output=> false
 
 
-//Activity -4
+//Activity -4: Logical operators
+/*
+&& {and-> multiply}
+|| {or-> add}
+!  {not-> opposite}
+*/
 let x = 4;
 
 //Task 11
@@ -57,7 +65,7 @@ console.log("(x>3)||(x<2) =", (x > 3) || (x < 2)); //output=> true
 console.log("!(x==4) =", !(x == 4)); //output=> false
 
 
-//Activity -5
+//Activity -5: Ternary operator
 
 //Task 14
 let num = -12;
