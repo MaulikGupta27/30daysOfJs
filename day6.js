@@ -1,3 +1,4 @@
+//for-of and for-in loops can also be used to print array: refer harry #19
 //Activity -1
 
 //Task 1
@@ -38,21 +39,21 @@ console.log(arr6); //output: [ 3, 6, 9, 12, 15, 18 ]
 
 //Task 7: map() to create a new array where each number is doubled
 let first = [2, 4, 6, 8, 10];
-let second = first.map((doubleVal) => {
+let second = first.map((doubleVal) => {     //newArray is formed in map()
     return doubleVal * 2;
 })
 console.log(second); //output: [ 4, 8, 12, 16, 20 ]
 
 //Task 8: filter() to create a new array with only even numbers
 let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let evenArr = numArr.filter((evenNum) => {
+let evenArr = numArr.filter((evenNum) => {     //newArray is formed in filter()
     return evenNum % 2 == 0;
 })
 console.log(evenArr); //output: [ 2, 4, 6, 8 ]
 
 //Task 9: reduce() to calculate sum of all numbers in array
 let arrayNew = [3, 1, 6, 8, 4, 2];
-let arraySum = arrayNew.reduce((a, b) => {
+let arraySum = arrayNew.reduce((a, b) => {     //reduce() reduces the array to a single value
     return a + b;
 })
 console.log(arraySum); //output: 24
