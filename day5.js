@@ -1,7 +1,6 @@
 //Activity -1
 
 //Task 1
-
 function check(num) {
     if (num % 2 == 0) {
         return "Even";
@@ -10,16 +9,13 @@ function check(num) {
         return "Odd";
     }
 }
-
 let a = 4;
 console.log(check(a));  //output: Even
 
 //Task 2
-
 function square(num) {
     return num * num;
 }
-
 let b = 8;
 console.log(square(b));  //output: 64
 
@@ -27,7 +23,6 @@ console.log(square(b));  //output: 64
 //Activity -2
 
 //Task 3
-
 function maxNum(a, b) {
     if (a > b) {
         return a;
@@ -36,28 +31,23 @@ function maxNum(a, b) {
         return b;
     }
 }
-
 let c = 27, d = 69;
 console.log(maxNum(c, d));  //output: 69
 
 //Task 4
-
 function concatStrings(str1, str2) {
     return str1 + str2;
 }
-
 let string1 = "Maulik", string2 = "Gupta";
 console.log(concatStrings("Maulik", "Gupta")); //output: MaulikGupta
 
 
-//Activity -3
+//Activity -3: Arrow functions
 
 //Task 5
-
 const sumDigits = (a, b) => {
     return a + b;
 }
-
 let num1 = 4, num2 = 5;
 console.log(sumDigits(num1, num2));  //output: 9
 
@@ -67,7 +57,6 @@ const sumDigits = (a, b) => a + b;
 */
 
 //Task 6
-
 const strCheck = (string, char) => {
     if (string.indexOf(char) != -1) {
         return true;
@@ -76,23 +65,19 @@ const strCheck = (string, char) => {
         return false;
     }
 }
-
 console.log(strCheck("Maulik", 'q'));  //output: false
 
 
-//Activity -4
+//Activity -4: Default values
 
 //Task 7
-
 function multiply(a, b = 1) {
     return a * b;
 }
-
 console.log(multiply(5, 3)); // output: 15
 console.log(multiply(7));    // output: 7 (since b defaults to 1)
 
 //Task 8
-
 function greeting(name, age = 19) {
     return `Hello ${name}. Age = ${age}`;
 }
@@ -103,10 +88,9 @@ age = 20;
 console.log(greeting(Name, age)); //output: Hello Maulik. Age = 20
 
 
-//Activity -5
+//Activity -5: Higher-Order Functions
 
-//Task 9
-
+//Task 9: func that take a func and value and returns the func that many times
 function repeat(func, times) {
     for (let i = 0; i < times; i++) {
         func();
@@ -119,8 +103,8 @@ function sayHello() {
 
 repeat(sayHello, 3); // output :- Hello Hello Hello
 
-//Task 10
-
+//Task 10:
+//func that takes 2 func and a value, applies the first func to val and sec func to result
 function add(func1, func2) {
     return func2(func1(val1, val2));
 }

@@ -1,3 +1,5 @@
+//for-of and for-in loops can also be used: refer shradha js loops
+
 //Activity -1
 
 //Task 1
