@@ -1,4 +1,4 @@
-//for-of and for-in loops can also be used: refer shradha js loops
+//for-of and for-in loops can also be used: refer Harry #9
 
 //Activity -1
 
